@@ -1,12 +1,11 @@
 FROM node:latest
 
 WORKDIR /app
+COPY . ./app
 
 RUN apt install -y curl
 
 RUN npm install 
-
-COPY . ./app
 
 EXPOSE 80
 
