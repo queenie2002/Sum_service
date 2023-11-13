@@ -10,4 +10,4 @@ COPY ./SumService.js .
 
 EXPOSE 80
 
-CMD [ "node", "index.js" ]
+CMD [ "node", "SumService.js" ]
