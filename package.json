@@ -1,0 +1,12 @@
+{
+  "name": "sumapp",
+  "version": "1.0.0",
+  "description": "A simple addition application",
+  "main": "SumService.js",  
+  "scripts": {
+    "start": "node SumService.js" 
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"  
+  }
+}
