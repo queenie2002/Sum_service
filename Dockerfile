@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:hydrogen-bullseye-slim
 
 WORKDIR /app
 COPY . .
