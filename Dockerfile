@@ -7,7 +7,9 @@ COPY ./package-lock.json /app/package-lock.json
 
 RUN apt install -y curl
 
-RUN npm install 
+RUN apt update -y
+
+//RUN npm install 
 
 EXPOSE 80
 
