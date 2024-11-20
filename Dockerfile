@@ -9,8 +9,6 @@ RUN apt install -y curl
 
 RUN apt update -y
 
-//RUN npm install 
-
 EXPOSE 80
 
 CMD [ "node", "SumService.js" ]
